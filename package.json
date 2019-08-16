@@ -1,0 +1,26 @@
+{
+  "name": "excel-like-column-name-generator",
+  "version": "1.0.0",
+  "description": "generates names for columns in excel like teble manner like 'AAF'",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js --environment INCLUDE_DEPS,BUILD:production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excel",
+    "column",
+    "names",
+    "string-literal",
+    "generation"
+  ],
+  "author": "Andrey Makarov <levi2ki1988@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
