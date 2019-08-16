@@ -2,6 +2,10 @@
   "name": "excel-like-column-name-generator",
   "version": "1.0.0",
   "description": "generates names for columns in excel like teble manner like 'AAF'",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levi2ki/excel-like-column-name-generator.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js --environment INCLUDE_DEPS,BUILD:production",
