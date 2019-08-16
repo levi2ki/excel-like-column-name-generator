@@ -6,3 +6,4 @@ export const genColumns = generateColumnNames(generateSingleValue);
 export const memoizedGenColumns = generateColumnNames(
   memoize(generateSingleValue)
 );
+export const genSingleValue = generateSingleValue;
