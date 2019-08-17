@@ -1,3 +1,4 @@
+# **Version before 2.x.x is broken**
 # EXCEL LIKE COLUMNS NAME GENERATOR.
     generates names like 'AAZ' in excel maner from count of columns
 
