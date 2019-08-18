@@ -1,9 +1,8 @@
 import { memoize } from "./memoize";
-import { generateSingleValue } from "./generateSingleValue";
+import { convertNumber } from "./convertNumber";
 import { generateColumnNames } from "./generateColumnNames";
 
-export const genColumns = generateColumnNames(generateSingleValue);
-export const memoizedGenColumns = generateColumnNames(
-  memoize(generateSingleValue)
-);
-export const genSingleValue = generateSingleValue;
+export { default as parse } from "./parse";
+export const genColumns = generateColumnNames(convertNumber);
+export const memoizedGenColumns = generateColumnNames(memoize(convertNumber));
+export const genSingleValue = convertNumber;
