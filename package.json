@@ -1,6 +1,6 @@
 {
   "name": "excel-like-column-name-generator",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "generates names for columns in excel like teble manner like 'AAF'",
   "repository": {
     "type": "git",
